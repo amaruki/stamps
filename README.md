@@ -3,7 +3,7 @@
 this repository for Stamps mini test only
 
 ## Minitest Result
-[](./minitest_result.png)
+![minitest](./minitest_result.png)
 
 ## Weather Forecast Result 
-[](./weather_api_result.png)
+![weather forecast](./weather_api_result.png)

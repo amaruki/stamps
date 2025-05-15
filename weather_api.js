@@ -1,6 +1,7 @@
+require('dotenv').config()
 const https = require('https')
 
-const apiKey = '6f2f83835834f679bfb8f84d7a27dbfc'
+const apiKey = process.env.API_KEY
 const cityName = 'Jakarta'
 const countryCode = 'ID'
 const url = `https://api.openweathermap.org/data/2.5/forecast?q=${cityName},${countryCode}&appid=${apiKey}&units=metric`
